@@ -7,9 +7,11 @@ Se debe mostrar por pantalla el capital mes a mes hasta el número de meses capt
 
 opcion = ""
 
+
 while opcion != "2":
     print("\nMenu inicial")
     print("1. Proyectar capital con interés 0.7% mensual")
+
     print("2. Salir")
     
     opcion = input("Seleccione una opción: ")

@@ -21,8 +21,7 @@ class Rectangulo:
               # Instancia del rectangulo......
                 mi_rectangulo = Rectangulo(3,5)
                 
-      
-                
+    
               #Perimetro
           def  perimetro(self):
                 perimetro = 2 * (ancho + alto)

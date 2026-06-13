@@ -23,7 +23,7 @@ while len(numeros) < 8:
     except ValueError:
         print("Error: ingrese un número válido.")
 
-# Mostrar números capturados
+# Mostrar números capturados....
 print("\nNúmeros ingresados:")
 print(numeros)
 

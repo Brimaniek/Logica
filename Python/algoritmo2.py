@@ -19,7 +19,6 @@ def mostrar_menu():
     print("8. Hombres > 15 años")
     print("9. Salir")
     
-    
 
 def determinar_rango_hemoglobina(edad_meses, sexo):
     if edad_meses <= 1:
@@ -33,7 +32,6 @@ def main():
         edad_meses_adicionales = int(input("Ingrese los meses adicionales (0 si no hay): "))
         sexo = input("Ingrese el sexo (M/F): ").lower()
         hemoglobina = float(input("Ingrese el nivel de hemoglobina (g/dl): "))
-
         edad_total_meses = edad_anios * 12 + edad_meses_adicionales
         rango = determinar_rango_hemoglobina(edad_total_meses, sexo)
 
@@ -55,3 +53,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+  

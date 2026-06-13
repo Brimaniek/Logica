@@ -34,7 +34,7 @@ else:
             print("Error: tipo de papa no válido")
             precio_final = None
 
-        #Mostrar ganancia
+        #Mostrar ganancia.....
         if precio_final is not None:
             ganancia = precio_final * kilos
             print(f"Precio final por kilo: ${precio_final}")

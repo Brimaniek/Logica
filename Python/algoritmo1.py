@@ -16,6 +16,7 @@ def mostrar_menu():
     print("D - Occidental alta $11.000")
     print("E - Exclusivo       $20.000")
 
+#uso del diccionario........
 def obtener_precio(codigo):
     precios = {
         "A": 15000,
