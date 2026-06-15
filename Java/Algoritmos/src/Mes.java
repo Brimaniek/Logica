@@ -14,31 +14,31 @@ switch(numero_mes){
 
             case 1:
                   System.out.println("Enero");
-                  break;
+                  break;// salir del bloque actual
 
 
     case 2:
                   System.out.println("Febrero");
-                  break;
+                  break; // salir del bloque actual
 
    case 3:
                   System.out.println("marzo");
-                  break;
+                  break; // salir del bloque actual
 
 
  case 4:
                   System.out.println("abril");
-                  break;
+                  break; // salir del bloque actual
 
                   
  case 5:
                   System.out.println("mayo");
-                  break;
+                  break; // salir del bloque actual
 
               
  case 6:
                   System.out.println("junio");
-                  break;
+                  break; // salir del bloque actual
 
    default:
      System.out.println("Numero del mes incorrecto");
@@ -49,3 +49,27 @@ switch(numero_mes){
     }
 
 }
+
+------------------------------------------------------------------------------------
+// Caso con varias instrucciones.........
+
+int numero = 2;
+
+String resultado = switch (numero) {
+
+    case 1 -> {
+        System.out.println("Procesando 1");
+        yield "Uno";
+    }
+
+    case 2 -> {
+        System.out.println("Procesando 2");
+        yield "Dos";
+    }
+    default -> {
+        yield "Otro";
+    }
+};
+
+
+System.out.println(resultado);
