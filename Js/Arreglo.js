@@ -8,4 +8,4 @@ for (let i = 0; i < 4; i++) {
     promedio += notas[i] * porcentajes[i];
 }
 
-console.log(`Promedio: ${promedio.toFixed(2)}`);
+console.log(`El Promedio es : ${promedio.toFixed(2)}`);

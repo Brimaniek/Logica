@@ -9,7 +9,7 @@ public class EntradaDatos{
     double  salario = Double.parseDouble(JOptionPane.showInputDialog("Introduce tu salario: "));
 
 
-    System.out.println("Te llamas : " + nombre_usuario + " y el ano que viene tendras " + (edad+1) 
+    System.out.println("Te llamas : " + nombreUsuario + " y el ano que viene tendras " + (edad+1) 
     " anos.Y tienes un salario de " + salario);
     
 

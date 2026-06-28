@@ -5,8 +5,7 @@
           console.log(letra[i]);
    }
 
-//Buscar una letra especifica.....
-
+//Buscar una letra especifica....
 let palabra = "JavaScript";
 
 for (let i = 0; i < palabra.length; i++) {

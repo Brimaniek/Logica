@@ -1,7 +1,7 @@
 import java.util.*;
 import  javax.swing.JOptionPane;
 
-public class  ejemploBucle {
+public class  EjemploBucle {
     public static void main(String[] args) throws Exception {
 
 

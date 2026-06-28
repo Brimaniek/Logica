@@ -7,5 +7,5 @@ console.log(numeros)
 var  nombre = "Bibiana"
 console.log(nombre)
 
-const numero = 34
+const numero = 34;
 console.log(numero)

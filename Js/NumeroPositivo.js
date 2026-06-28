@@ -1,5 +1,6 @@
-const prompt = require("prompt-sync")();
+"use strict";
 
+const prompt = require("prompt-sync")();
 
 let num;
 
@@ -7,7 +8,7 @@ let num;
 do {
   num = Number(prompt("Ingresa el numero:"));
   
-  // Validamos si es un entero positivo
+  // Validamos si es un entero positivo......
   if (num > 0 && Number.isInteger(num)) {
     console.log("¡Número válido! El ciclo terminará.");
     break; // Rompe el bucle porque el número es correcto

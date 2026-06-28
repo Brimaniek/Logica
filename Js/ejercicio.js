@@ -30,7 +30,7 @@ console.log(favoriteSubjectSentence);
 
 console.log("Well, it was nice to talk to you. Have a nice day!");
 
-----------------------------------------------------------------------------------------------------------
+
 console.log("Hello! ¡Soy tu guía de datos curiosos de programación!");
 
 let botName = "teacherBot";
@@ -52,7 +52,7 @@ console.log(codingFact);
 
 console.log("It was fun sharing these facts with you. Goodbye! - " + botName + " from " + botLocation + ".");
 
--------------------------------------------------------------------------------------------------------------
+
 let adjective = "brave";
 let noun = "dragon";
 let verb = "flying";
@@ -75,7 +75,6 @@ let secondStory = "Once upon a time, there was a(n) " + adjective + " " + noun +
 
 console.log("Second story: " + secondStory);
 
-------------------------------------------------------------------------------------------------------
 let hello = "Hello";
 hello += " world";
 console.log(hello);

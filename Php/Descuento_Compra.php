@@ -7,7 +7,7 @@ $compra = readline("Ingrese el valor de la compra:");
               $descuento = $compra * 0.20;
               $compra -= $descuento;
          }else{
-            echo("Nohay descuento");
+            echo("No hay descuento");
          }
            
          echo "La compra es " . $compra .  " El descuento ". $descuento;
